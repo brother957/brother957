@@ -68,6 +68,9 @@ a.tool_button{
 #command_holder li.command_button{
 	margin-top: 10px;
 }
+#command_holder li.command_button{
+	float: right;
+}
 #command_holder li.command_button ~ li.command_button {
     margin-top: 10px;
 }
