@@ -53,6 +53,17 @@
     font-family: SimHei, 'Heiti SC', SimSun, 'Songti SC', 'Microsoft YaHei', sans-serif;
 }
 
+#command_holder li.command_button{
+	float: right;
+}
+.toolbar_button_tip{
+	right: 0px;
+	left: auto;
+}
+#command_holder .command_button_content:hover .toolbar_button_tip{
+	transform-origin: right top;
+}
+
 #introduce_info_container .introduce_line {
     line-height: 20px;
     margin: 10px 20px 10px 0;
@@ -915,7 +926,7 @@ li.tool_button {
     position: relative;
     text-align: center;
     list-style: none;
-    float: right;
+    float: left;
 }
 
 li.tool_button a.tool_button.disabled {
